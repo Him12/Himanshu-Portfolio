@@ -12,7 +12,8 @@ export function Experience() {
 
   const fetchExperiences = async () => {
     try {
-      const response = await fetch("/experience.json");
+      const response = await fetch(`${import.meta.env.BASE_URL}experience.json`);
+
       const data = await response.json();
 
       const sorted = data.sort(

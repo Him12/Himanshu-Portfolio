@@ -21,7 +21,8 @@ export function Education() {
 
   const fetchEducation = async () => {
     try {
-      const response = await fetch("/education.json");
+      const response = await fetch(`${import.meta.env.BASE_URL}education.json`);
+
       const data = await response.json();
       setEducation(data);
     } catch (err) {

@@ -3,13 +3,12 @@ import { useState } from "react";
 export function Gallery() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  // List all images in the /public/gallery folder
+  // All images from /public/gallery/
   const images = [
-    "/gallery/IMG-20251112-WA0018.jpg",
-    "/gallery/IMG-20251206-WA0007.jpg",
-    "/gallery/IMG-20251206-WA0008.jpg",
-    "/gallery/IMG-20251206-WA0010.jpg",
-    // Add more if needed
+    "gallery/IMG-20251112-WA0018.jpg",
+    "gallery/IMG-20251206-WA0007.jpg",
+    "gallery/IMG-20251206-WA0008.jpg",
+    "gallery/IMG-20251206-WA0010.jpg"
   ];
 
   return (
@@ -31,12 +30,12 @@ export function Gallery() {
           {images.map((url, index) => (
             <div
               key={index}
-              className="group relative aspect-square overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-800 cursor-pointer animate-fade-in-up hover:shadow-2xl transition-all"
+              className="group relative aspect-square overflow-hidden rounded-xl bg-gray-200 dark:bg-gray-800 cursor-pointer animate-fade-in-up hover:shadow-2xl transition-all"
               style={{ animationDelay: `${index * 60}ms` }}
-              onClick={() => setSelectedImage(url)}
+              onClick={() => setSelectedImage(`${import.meta.env.BASE_URL}${url}`)}
             >
               <img
-                src={url}
+                src={`${import.meta.env.BASE_URL}${url}`}
                 alt="Gallery"
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
               />

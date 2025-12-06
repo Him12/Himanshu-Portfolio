@@ -15,7 +15,7 @@ export function Portfolio() {
   // Load data from public/mywork.json
   const fetchProjects = async () => {
     try {
-      const response = await fetch("/mywork.json");
+      const response = await fetch(`${import.meta.env.BASE_URL}mywork.json`);
       const data = await response.json();
 
       // Sort by order index

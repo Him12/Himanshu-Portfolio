@@ -13,7 +13,8 @@ export function Skills() {
   // Load from public/skills.json
   const fetchSkills = async () => {
     try {
-      const response = await fetch("/skills.json");
+      const response = await fetch(`${import.meta.env.BASE_URL}skills.json`);
+
       const data = await response.json();
 
       const sorted = data.sort(

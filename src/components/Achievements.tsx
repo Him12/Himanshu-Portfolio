@@ -12,7 +12,8 @@ export function Achievements() {
 
   const fetchAchievements = async () => {
     try {
-      const response = await fetch("/achievements.json");
+      const response = await fetch(`${import.meta.env.BASE_URL}achievements.json`);
+
       const data = await response.json();
 
       // Sort by date DESC
