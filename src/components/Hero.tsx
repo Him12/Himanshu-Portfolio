@@ -23,7 +23,7 @@ export function Hero() {
           <div className="relative w-40 h-40 md:w-48 md:h-48 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full animate-pulse-slow"></div>
             <img
-              src="./images/photo.jpg"
+              src="/images/photo.jpg"
               alt="Himanshu Kumar"
               className="relative w-full h-full rounded-full object-cover border-4 border-white dark:border-gray-800 shadow-2xl"
             />
