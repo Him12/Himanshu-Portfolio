@@ -2,25 +2,85 @@ import { Code2, Rocket, Target, Lightbulb, Award, Heart } from 'lucide-react';
 
 export function About() {
   const timeline = [
-    {
-      year: '2024',
-      title: 'Senior NetSuite Consultant',
-      description: 'Leading complex ERP implementations and customizations',
-      icon: Award,
-    },
-    {
-      year: '2022',
-      title: 'Startup Founder',
-      description: 'Launched multiple SaaS products',
-      icon: Rocket,
-    },
-    {
-      year: '2020',
-      title: 'NetSuite Developer',
-      description: 'Started journey in ERP development',
-      icon: Code2,
-    },
-  ];
+  {
+    year: '2025',
+    title: 'Chief Technical Officer & Co-Founder – Thevisuplate',
+    description:
+      'Founded Thevisuplate (thevisuplate.online). Leading product architecture, full-stack development, deployment, and technical innovation for a modern visual-content platform.',
+    icon: Rocket,
+  },
+  {
+    year: '2025',
+    title: 'Senior NetSuite Consultant / Senior Engineer – Nagarro',
+    description:
+      'Leading NetSuite ERP implementations, customizations, integrations, and advanced scripting across global projects.',
+    icon: Award,
+  },
+  {
+    year: '2023',
+    title: 'Engineer – Nagarro',
+    description:
+      'Worked on NetSuite, Oracle ERP Cloud, MySQL, and backend technical solutions. Delivered scalable ERP customizations.',
+    icon: Code2,
+  },
+  {
+    year: '2022',
+    title: 'Associate Engineer – Nagarro',
+    description:
+      'Automation Testing (Selenium, API Testing, Cucumber). Built tools, maintained scripts, designed test cases, and improved QA efficiency.',
+    icon: Code2,
+  },
+  {
+    year: '2022',
+    title: 'Trainee – Nagarro',
+    description:
+      'Completed training in QA, engineering fundamentals, automation testing, and ERP concepts.',
+    icon: Rocket,
+  },
+  {
+    year: '2021',
+    title: 'Assistant Team Lead – JindalX (Zomato Process)',
+    description:
+      'Led a 30+ member team, handled operations, escalations, performance management, and rider experience improvement.',
+    icon: Award,
+  },
+  {
+    year: '2020',
+    title: 'Customer Service Associate – JindalX (Zomato)',
+    description:
+      'Supported Zomato delivery partners, resolved issues, and improved delivery efficiency.',
+    icon: Code2,
+  },
+  {
+    year: '2020',
+    title: 'Web Development Intern – Bhumi NGO',
+    description:
+      'Developed a complete WordPress website for an NGO and delivered end-to-end requirements.',
+    icon: Rocket,
+  },
+  {
+    year: '2020',
+    title: 'Digital Marketing Intern – Guby Rogers',
+    description:
+      'Handled brand awareness and social media promotions for digital campaigns.',
+    icon: Rocket,
+  },
+  {
+    year: '2019',
+    title: 'Campus Ambassador – Awign',
+    description:
+      'Promoted brand presence and conducted outreach activities across student communities.',
+    icon: Rocket,
+  },
+  {
+    year: '2018',
+    title: 'Customer Service Representative – Teleone Consumers Products',
+    description:
+      'Handled international support calls (USA, Canada) for Ayurvedic product users.',
+    icon: Award,
+  },
+];
+
 
   const highlights = [
     {
@@ -70,7 +130,7 @@ export function About() {
                 and modern cloud technologies.
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                Beyond consulting, I'm an entrepreneur at heart. I've founded multiple startups, each aimed
+                Beyond consulting, I'm an entrepreneur at heart. I've founded a startups, aimed
                 at solving real-world problems through technology. My passion lies in turning innovative ideas
                 into scalable products that make a difference.
               </p>
@@ -78,15 +138,15 @@ export function About() {
 
             <div className="grid grid-cols-3 gap-4 mt-8">
               <div className="text-center p-4 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950 dark:to-cyan-950 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">5+</div>
+                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">8+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950 dark:to-cyan-950 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">50+</div>
+                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">20+</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center p-4 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950 dark:to-cyan-950 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">3</div>
+                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">1</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Startups Founded</div>
               </div>
             </div>

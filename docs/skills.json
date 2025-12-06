@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "NetSuite (SuiteScript 2.x, SuiteFlow, Workflows)",
+    "category": "technical",
+    "proficiency": 95,
+    "order_index": 1
+  },
+  {
+    "id": 2,
+    "name": "SuiteScript (Client, UE, M/R, Restlet, Suitelet)",
+    "category": "technical",
+    "proficiency": 93,
+    "order_index": 2
+  },
+  {
+    "id": 3,
+    "name": "Oracle ERP Cloud (SCM, Finance)",
+    "category": "technical",
+    "proficiency": 85,
+    "order_index": 3
+  },
+  {
+    "id": 4,
+    "name": "SQL / PL-SQL",
+    "category": "technical",
+    "proficiency": 88,
+    "order_index": 4
+  },
+  {
+    "id": 5,
+    "name": "JavaScript / TypeScript",
+    "category": "technical",
+    "proficiency": 90,
+    "order_index": 5
+  },
+  {
+    "id": 6,
+    "name": "HTML / CSS / Advanced PDF (NetSuite Templates)",
+    "category": "technical",
+    "proficiency": 94,
+    "order_index": 6
+  },
+  {
+    "id": 7,
+    "name": "React / Next.js / Frontend Development",
+    "category": "technical",
+    "proficiency": 80,
+    "order_index": 7
+  },
+  {
+    "id": 8,
+    "name": "REST APIs / Integrations (MuleSoft, SOAP, JSON)",
+    "category": "functional",
+    "proficiency": 88,
+    "order_index": 1
+  },
+  {
+    "id": 9,
+    "name": "O2C / P2P / Inventory Management (ERP)",
+    "category": "functional",
+    "proficiency": 85,
+    "order_index": 2
+  },
+  {
+    "id": 10,
+    "name": "Requirement Analysis & Solution Design",
+    "category": "functional",
+    "proficiency": 92,
+    "order_index": 3
+  },
+  {
+    "id": 11,
+    "name": "Automation Testing (Selenium, Appium, Cucumber)",
+    "category": "tools",
+    "proficiency": 83,
+    "order_index": 1
+  },
+  {
+    "id": 12,
+    "name": "Postman / API Testing",
+    "category": "tools",
+    "proficiency": 90,
+    "order_index": 2
+  },
+  {
+    "id": 13,
+    "name": "Git / GitHub / CI-CD",
+    "category": "tools",
+    "proficiency": 80,
+    "order_index": 3
+  },
+  {
+    "id": 14,
+    "name": "Problem Solving",
+    "category": "soft",
+    "proficiency": 95,
+    "order_index": 1
+  },
+  {
+    "id": 15,
+    "name": "Communication",
+    "category": "soft",
+    "proficiency": 90,
+    "order_index": 2
+  },
+  {
+    "id": 16,
+    "name": "Leadership & Team Handling",
+    "category": "soft",
+    "proficiency": 88,
+    "order_index": 3
+  }
+]

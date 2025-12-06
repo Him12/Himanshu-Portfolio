@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Kailash Hanwat",
+    "role": "Reviewer – Q2 2025 to Q3 2025",
+    "company": "Nagarro",
+    "content": "Himanshu demonstrates a caring attitude and actively contributes to multiple projects, technical development, and enhancement sprints. He takes full ownership of tasks and consistently delivers effective, well-structured solutions. His demos are impactful and he stands out as a skilled NetSuite technical consultant.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Paramjit Singh",
+    "role": "Reviewer – Q4 2024 to Q1 2025",
+    "company": "Nagarro",
+    "content": "Himanshu shows excellent techno-functional versatility across NetSuite and Oracle Cloud. He has led multiple data migrations end-to-end with zero downtime, delivered consistently high-quality work, and received strong client feedback. His certifications and Autothon 2.0 win highlight his dedication and innovation.",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Paramjit Singh",
+    "role": "Reviewer – Q2 2024 to Q3 2024",
+    "company": "Nagarro",
+    "content": "Himanshu demonstrated strong SQL expertise, solved urgent issues efficiently, and contributed significantly to project outcomes. His technical versatility in SuiteScript, PDF customization, and integrations enhanced client delivery. His drive for self-learning and growth is commendable.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Paramjit Singh",
+    "role": "Reviewer – Q4 2023 to Q1 2024",
+    "company": "Nagarro",
+    "content": "Himanshu built strong capabilities in SQL, troubleshooting, and data modeling while delivering insightful reports that supported business decision-making. His structured thinking and ability to prevent issues through systematic analysis stand out.",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "name": "Paramjit Singh",
+    "role": "Reviewer – Q2 2023 to Q3 2023",
+    "company": "Nagarro",
+    "content": "Himanshu showed impressive initiative in learning Python, AI, DialogFlow, Generative AI, and Oracle APEX. His proactive approach and hands-on curiosity allowed him to build practical solutions, demonstrating strong potential and dedication.",
+    "rating": 5
+  },
+  {
+    "id": 6,
+    "name": "Paramjit Singh",
+    "role": "Reviewer – Q3 2022 to Q1 2023",
+    "company": "Nagarro",
+    "content": "Himanshu is hardworking, punctual, and takes strong ownership of responsibilities. He proactively provides updates, collaborates well with the team, and consistently meets expectations while continuing to expand his technical abilities.",
+    "rating": 5
+  }
+]

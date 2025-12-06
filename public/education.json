@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "degree": "Bachelor of Technology (B.Tech) – Computer Science",
+    "institution": "Guru Gobind Singh Indraprastha University (GGSIPU)",
+    "start_year": "2018",
+    "end_year": "2022",
+    "institution_url": "http://www.ipu.ac.in/aboutuni.php",
+    "description": "Completed B.Tech in Computer Science with hands-on experience across programming, databases, algorithms, and full-stack development. Participated in multiple academic projects and technical activities."
+  },
+  {
+    "id": 2,
+    "degree": "Intermediate – Computer Science",
+    "institution": "SD Public School, Pitampura",
+    "start_year": "2016",
+    "end_year": "2017",
+    "institution_url": "https://sdpublicschoolpp.in/",
+    "description": "Completed senior secondary education with a specialization in Computer Science, including programming fundamentals and mathematics."
+  },
+  {
+    "id": 3,
+    "degree": "High School – Mathematics & Computer Science",
+    "institution": "SD Public School, Pitampura",
+    "start_year": "2015",
+    "end_year": "2016",
+    "institution_url": "https://sdpublicschoolpp.in/",
+    "description": "Completed high school education with a focus on mathematics, logical reasoning, and computer science foundation."
+  },
+  {
+    "id": 4,
+    "degree": "Primary to Middle School (Class 1 to 8)",
+    "institution": "Arya Model School",
+    "start_year": "2007",
+    "end_year": "2015",
+    "institution_url": "https://aryamodelschool.org.in/",
+    "description": "Studied from class 1 to class 8, developed strong academic fundamentals and participated in curricular and co-curricular activities."
+  }
+]

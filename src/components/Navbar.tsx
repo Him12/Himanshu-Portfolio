@@ -15,6 +15,7 @@ export function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  // 🔥 Education Added Here
   const navLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
@@ -22,6 +23,7 @@ export function Navbar() {
     { name: 'Startups', href: '#startups' },
     { name: 'Skills', href: '#skills' },
     { name: 'Experience', href: '#experience' },
+    { name: 'Education', href: '#education' },  // <-- Added
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -47,9 +49,10 @@ export function Navbar() {
             onClick={() => scrollToSection('#home')}
             className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent"
           >
-            HK
+            HIMANSHU KUMAR
           </button>
 
+          {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <button
@@ -60,6 +63,8 @@ export function Navbar() {
                 {link.name}
               </button>
             ))}
+
+            {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
@@ -69,6 +74,7 @@ export function Navbar() {
             </button>
           </div>
 
+          {/* Mobile menu buttons */}
           <div className="md:hidden flex items-center space-x-2">
             <button
               onClick={toggleTheme}
@@ -88,6 +94,7 @@ export function Navbar() {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
           <div className="px-4 py-4 space-y-3">

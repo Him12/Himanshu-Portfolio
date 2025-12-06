@@ -1,41 +1,47 @@
-import { useState, useEffect } from 'react';
-import { ExternalLink, Github, Filter } from 'lucide-react';
-import { supabase, Project } from '../lib/supabase';
+import { useState, useEffect } from "react";
+import { ExternalLink, Github, Filter } from "lucide-react";
+import { Project } from "../types/project";
+
 
 export function Portfolio() {
   const [projects, setProjects] = useState<Project[]>([]);
-  const [filter, setFilter] = useState('all');
+  const [filter, setFilter] = useState("all");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetchProjects();
   }, []);
 
+  // Load data from public/mywork.json
   const fetchProjects = async () => {
     try {
-      const { data, error } = await supabase
-        .from('projects')
-        .select('*')
-        .order('order_index', { ascending: true });
+      const response = await fetch("/mywork.json");
+      const data = await response.json();
 
-      if (error) throw error;
-      setProjects(data || []);
+      // Sort by order index
+      const sorted = data.sort(
+        (a: Project, b: Project) => a.order_index - b.order_index
+      );
+      setProjects(sorted);
     } catch (error) {
-      console.error('Error fetching projects:', error);
+      console.error("Error loading projects:", error);
     } finally {
       setLoading(false);
     }
   };
 
-  const categories = ['all', 'client', 'freelance', 'startup', 'personal'];
+  const categories = ["all", "client", "startup", "personal"];
 
-  const filteredProjects = filter === 'all'
-    ? projects
-    : projects.filter(p => p.category === filter);
+  const filteredProjects =
+    filter === "all"
+      ? projects
+      : projects.filter((p) => p.category === filter);
 
   return (
     <section id="work" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Header */}
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent">
             My Work
@@ -45,6 +51,7 @@ export function Portfolio() {
           </p>
         </div>
 
+        {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
           {categories.map((category) => (
             <button
@@ -52,8 +59,8 @@ export function Portfolio() {
               onClick={() => setFilter(category)}
               className={`px-6 py-2 rounded-full font-medium transition-all transform hover:scale-105 ${
                 filter === category
-                  ? 'bg-gradient-to-r from-blue-600 to-cyan-500 text-white shadow-lg'
-                  : 'bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-700'
+                  ? "bg-gradient-to-r from-blue-600 to-cyan-500 text-white shadow-lg"
+                  : "bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-300 border-2 border-gray-200 dark:border-gray-700"
               }`}
             >
               <span className="capitalize">{category}</span>
@@ -61,6 +68,7 @@ export function Portfolio() {
           ))}
         </div>
 
+        {/* Loading State */}
         {loading ? (
           <div className="text-center py-20">
             <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-blue-600 border-t-transparent"></div>
@@ -73,6 +81,8 @@ export function Portfolio() {
             </p>
           </div>
         ) : (
+          
+          /* Project Cards */
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProjects.map((project, index) => (
               <div
@@ -80,6 +90,8 @@ export function Portfolio() {
                 className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 animate-fade-in-up"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
+                
+                {/* Image or Placeholder */}
                 <div className="relative h-48 overflow-hidden bg-gradient-to-br from-blue-100 to-cyan-100 dark:from-blue-950 dark:to-cyan-950">
                   {project.image_url ? (
                     <img
@@ -92,6 +104,7 @@ export function Portfolio() {
                       {project.title.charAt(0)}
                     </div>
                   )}
+
                   {project.featured && (
                     <div className="absolute top-4 right-4 px-3 py-1 bg-yellow-400 text-yellow-900 rounded-full text-xs font-bold">
                       Featured
@@ -99,6 +112,7 @@ export function Portfolio() {
                   )}
                 </div>
 
+                {/* Card Content */}
                 <div className="p-6">
                   <div className="mb-2">
                     <span className="inline-block px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-cyan-400 text-xs font-semibold rounded-full capitalize">
@@ -114,8 +128,9 @@ export function Portfolio() {
                     {project.description}
                   </p>
 
+                  {/* Tech Stack */}
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tech_stack.slice(0, 3).map((tech, i) => (
+                    {project.tech_stack.slice(0, 3).map((tech: string, i: number) => (
                       <span
                         key={i}
                         className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs rounded"
@@ -123,6 +138,7 @@ export function Portfolio() {
                         {tech}
                       </span>
                     ))}
+
                     {project.tech_stack.length > 3 && (
                       <span className="px-2 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs rounded">
                         +{project.tech_stack.length - 3}
@@ -130,6 +146,7 @@ export function Portfolio() {
                     )}
                   </div>
 
+                  {/* Buttons */}
                   <div className="flex gap-2">
                     {project.live_url && (
                       <a
@@ -142,6 +159,7 @@ export function Portfolio() {
                         <span>Live Demo</span>
                       </a>
                     )}
+
                     {project.github_url && (
                       <a
                         href={project.github_url}
@@ -153,10 +171,12 @@ export function Portfolio() {
                       </a>
                     )}
                   </div>
+
                 </div>
               </div>
             ))}
           </div>
+
         )}
       </div>
     </section>

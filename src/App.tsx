@@ -5,6 +5,7 @@ import { Portfolio } from './components/Portfolio';
 import { Startups } from './components/Startups';
 import { Skills } from './components/Skills';
 import { Experience } from './components/Experience';
+import { Education } from './components/Education';   // ✅ NEW
 import { Achievements } from './components/Achievements';
 import { Testimonials } from './components/Testimonials';
 import { Gallery } from './components/Gallery';
@@ -24,6 +25,9 @@ function App() {
         <Startups />
         <Skills />
         <Experience />
+
+        <Education />   {/* ✅ ADDED HERE IN PAGE FLOW */}
+
         <Achievements />
         <Testimonials />
         <Gallery />

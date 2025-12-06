@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "role": "Senior Engineer (NetSuite & Oracle ERP)",
+    "company": "Nagarro",
+    "logo_url": "",
+    "start_date": "2025-04-01",
+    "end_date": null,
+    "responsibilities": [
+      "Leading end-to-end NetSuite implementations",
+      "Building scalable SuiteScript automations",
+      "Working on Oracle ERP Cloud modules",
+      "Designing workflows, integrations, and data flows"
+    ],
+    "achievements": [
+      "Delivered multiple complex NetSuite automations",
+      "Optimized ERP processes for global clients"
+    ],
+    "tech_used": ["SuiteScript", "SuiteFlow", "Oracle ERP Cloud", "JavaScript", "SQL"],
+    "order_index": 1
+  },
+  {
+    "id": 2,
+    "role": "Engineer",
+    "company": "Nagarro",
+    "logo_url": "",
+    "start_date": "2023-09-01",
+    "end_date": "2025-03-01",
+    "responsibilities": [
+      "Developed scripts for Oracle ERP Cloud",
+      "Built automations using SuiteScript 2.x",
+      "Worked on PL/SQL, MySQL, and backend logic"
+    ],
+    "achievements": ["Led automation tasks across multiple projects"],
+    "tech_used": ["MySQL", "PL/SQL", "SuiteScript", "API Testing"],
+    "order_index": 2
+  },
+  {
+    "id": 3,
+    "role": "Associate Engineer",
+    "company": "Nagarro",
+    "logo_url": "",
+    "start_date": "2022-09-01",
+    "end_date": "2023-09-01",
+    "responsibilities": [
+      "Created and maintained test scripts and automation tools",
+      "Performed Selenium, Cucumber, and API testing",
+      "Designed functional and non-functional test cases"
+    ],
+    "achievements": ["Improved QA efficiency with automation scripts"],
+    "tech_used": ["Selenium", "Cucumber", "REST API Testing", "SpecFlow", "Appium"],
+    "order_index": 3
+  },
+  {
+    "id": 4,
+    "role": "Trainee",
+    "company": "Nagarro",
+    "logo_url": "",
+    "start_date": "2022-05-01",
+    "end_date": "2022-09-01",
+    "responsibilities": ["Learned automation testing tools and methodologies"],
+    "achievements": ["Completed live project simulations successfully"],
+    "tech_used": ["Java", "C#", "Python"],
+    "order_index": 4
+  },
+  {
+    "id": 5,
+    "role": "Assistant Team Lead",
+    "company": "JindalX (Zomato Process)",
+    "logo_url": "",
+    "start_date": "2021-04-01",
+    "end_date": "2022-05-01",
+    "responsibilities": [
+      "Handled a team of 30+ members",
+      "Resolved escalations and operational challenges",
+      "Improved rider experience and delivery metrics"
+    ],
+    "achievements": ["Promoted for exceptional team leadership"],
+    "tech_used": ["Team Management", "Communication"],
+    "order_index": 5
+  },
+  {
+    "id": 6,
+    "role": "Customer Service Associate",
+    "company": "JindalX (Zomato)",
+    "logo_url": "",
+    "start_date": "2020-01-01",
+    "end_date": "2021-03-01",
+    "responsibilities": ["Supported Zomato riders", "Ensured delivery flow efficiency"],
+    "achievements": ["Improved rider satisfaction scores"],
+    "tech_used": ["Customer Handling", "CRM Tools"],
+    "order_index": 6
+  },
+  {
+    "id": 7,
+    "role": "Customer Service Representative",
+    "company": "Teleone Consumer Products",
+    "logo_url": "",
+    "start_date": "2018-06-01",
+    "end_date": "2019-12-01",
+    "responsibilities": ["Handled calls from USA & Canada customers"],
+    "achievements": [],
+    "tech_used": ["Communication", "CRM"],
+    "order_index": 7
+  }
+]

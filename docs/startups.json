@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Thevisuplate",
+    "logo_url": "",
+    "vision": "To become the most modern digital identity platform where users can showcase everything—images, videos, QR-linked content, portfolios, business cards, and more.",
+    "problem": "Traditional portfolios and digital business cards are static, limited, and not visually engaging. Thevisuplate solves this by turning your identity into an interactive digital plate.",
+    "features": [
+      "Dynamic visual plates",
+      "QR-based sharing",
+      "Smart portfolio sections",
+      "Video and media support",
+      "Custom themes",
+      "Fast loading & mobile optimized"
+    ],
+    "achievements": [
+      "Launched MVP in 2025",
+      "Reached first set of active users",
+      "Successfully tested QR-based sharing"
+    ],
+    "customer_impact": "Helps individuals present their identity, skills, and digital content in a modern and visually engaging format.",
+    "website_url": "https://thevisuplate.online",
+    "screenshots": [],
+    "order_index": 1
+  }
+]
