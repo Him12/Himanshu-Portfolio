@@ -3,9 +3,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/HIMANSHU-KUMAR-PORTFOLIO/",
+  base: "./",          // ✔ FIXES ALL 404 ERRORS
   build: {
-    outDir: "docs",
-    assetsDir: "",
+    outDir: "docs",    // GitHub Pages deploys from /docs
+    assetsDir: "",   // <--- CRITICAL
   },
 });
