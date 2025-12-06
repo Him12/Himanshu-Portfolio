@@ -5,140 +5,124 @@
     "description": "Winner of Autothon 2.0 for building an innovative solution and delivering exceptional teamwork.",
     "date": "2025-01-15",
     "featured": true,
-    "image_url": "/certificates/Winning Team.png",
-    "file_url": "/certificates/Autothon 2.0 WinnerCertificate.pdf",
+    "image_url": "certificates/Winning Team.png",
+    "file_url": "certificates/Autothon 2.0 WinnerCertificate.pdf",
     "priority": 1
   },
-
   {
     "id": "cheerboard-july25",
     "title": "Caring Cheerboard Recognition",
     "description": "Recognized for excellent work and dedication in NetSuite project delivery, demonstrating strong ownership and impact.",
     "date": "2025-07-01",
-    "image_url": "/certificates/cheerboard1.jpeg",
+    "image_url": "certificates/cheerboard1.jpeg",
     "priority": 2
   },
-
   {
     "id": "cheerboard-jan25",
     "title": "Caring Cheerboard Recognition (NetSuite Support)",
     "description": "Nominated for exceptional performance and contribution in a key NetSuite support engagement.",
     "date": "2025-01-01",
-    "image_url": "/certificates/cheerboard2.jpeg",
+    "image_url": "certificates/cheerboard2.jpeg",
     "priority": 3
   },
-
   {
     "id": "netsuite-team-nomination",
     "title": "NetSuite Project Team Nomination",
     "description": "Nominated for excellence in NetSuite implementation work and significant contribution to delivering client success.",
     "date": "2024-07-10",
-    "image_url": "/certificates/netsuite-team-nomination.jpeg",
+    "image_url": "certificates/netsuite-team-nomination.jpeg",
     "priority": 4
   },
-
   {
     "id": "excellence-award",
     "title": "Nagarro 'The A Team' Excellence Award",
     "description": "Awarded for outstanding performance, exceptional collaboration, and going beyond expectations in a critical NetSuite project.",
     "date": "2025-04-15",
-    "image_url": "/certificates/excellence-award.jpeg",
+    "image_url": "certificates/excellence-award.jpeg",
     "priority": 5
   },
-
   {
     "id": "cert-netsuite-financial",
     "title": "Oracle NetSuite Certified Financial Associate",
     "description": "Validated expertise in NetSuite financial configuration, processes, and functional operations.",
     "date": "2025-10-13",
-    "file_url": "/certificates/Oracle NetSuite Certified Financial Associate.pdf"
+    "file_url": "certificates/Oracle NetSuite Certified Financial Associate.pdf"
   },
-
   {
     "id": "cert-netsuite-bi",
     "title": "Oracle NetSuite Certified BI and Reporting Associate",
     "description": "Certification covering saved searches, reports, datasets, and NetSuite analytics.",
     "date": "2025-10-13",
-    "file_url": "/certificates/Oracle NetSuite Certified BI and Reporting Associate.pdf"
+    "file_url": "certificates/Oracle NetSuite Certified BI and Reporting Associate.pdf"
   },
-
   {
     "id": "cert-netsuite-ai-foundation",
     "title": "Oracle NetSuite Certified AI Foundations Associate",
     "description": "Certified understanding of AI concepts within the NetSuite ecosystem.",
     "date": "2025-10-13",
-    "file_url": "/certificates/Oracle NetSuite Certified AI Foundations Associate.pdf"
+    "file_url": "certificates/Oracle NetSuite Certified AI Foundations Associate.pdf"
   },
-
   {
     "id": "ocloud-success",
     "title": "Oracle Cloud Success Navigator Essentials",
     "description": "Oracle Cloud implementation success strategies and fundamentals.",
     "date": "2025-03-21",
-    "file_url": "/certificates/Oracle Cloud Success Navigator Essentials.pdf"
+    "file_url": "certificates/Oracle Cloud Success Navigator Essentials.pdf"
   },
-
   {
     "id": "cert-cx-process",
     "title": "Oracle Fusion Cloud Applications CX Process Essentials Certified",
     "description": "Certified understanding of Oracle Cloud CX business processes.",
     "date": "2024-03-21",
-    "file_url": "/certificates/Oracle Fusion Cloud Applications CX Process Essentials Certified - Rel 1.pdf"
+    "file_url": "certificates/Oracle Fusion Cloud Applications CX Process Essentials Certified - Rel 1.pdf"
   },
-
   {
     "id": "cert-erp-process",
     "title": "Oracle Fusion Cloud Applications ERP Process Essentials Certified",
     "description": "Certified knowledge of Oracle Fusion ERP processes.",
     "date": "2024-03-21",
-    "file_url": "/certificates/Oracle Fusion Cloud Applications ERP Process Essentials Certified - Rel 1.pdf"
+    "file_url": "certificates/Oracle Fusion Cloud Applications ERP Process Essentials Certified - Rel 1.pdf"
   },
-
   {
     "id": "cert-hcm-process",
     "title": "Oracle Fusion Cloud Applications HCM Process Essentials Certified",
     "description": "Certified understanding of Oracle Cloud HCM processes and workflows.",
     "date": "2024-03-21",
-    "file_url": "/certificates/Oracle Fusion Cloud Applications HCM Process Essentials Certified - Rel 1.pdf"
+    "file_url": "certificates/Oracle Fusion Cloud Applications HCM Process Essentials Certified - Rel 1.pdf"
   },
-
   {
     "id": "cert-scm-process",
     "title": "Oracle Fusion Cloud Applications SCM Process Essentials Certified",
     "description": "Certified understanding of Oracle Fusion Supply Chain workflows.",
     "date": "2024-03-21",
-    "file_url": "/certificates/Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1.pdf"
+    "file_url": "certificates/Oracle Fusion Cloud Applications SCM Process Essentials Certified - Rel 1.pdf"
   },
-
   {
     "id": "oci-genai-pro",
     "title": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
     "description": "Advanced OCI Generative AI certification covering model deployment and ML workloads.",
     "date": "2024-07-05",
-    "file_url": "/certificates/Oracle Cloud Infrastructure 2024 Generative AI Certified Professional.pdf"
+    "file_url": "certificates/Oracle Cloud Infrastructure 2024 Generative AI Certified Professional.pdf"
   },
-
   {
     "id": "ogl-pm-rel1",
     "title": "Oracle Guided Learning Project Management Certified Associate",
     "description": "Advanced OGL content lifecycle and project planning expertise.",
     "date": "2024-10-21",
-    "file_url": "/certificates/Oracle Guided Learning Project Management Certified Foundations Associate - Rel 1 (Beta).pdf"
+    "file_url": "certificates/Oracle Guided Learning Project Management Certified Foundations Associate - Rel 1 (Beta).pdf"
   },
-
   {
     "id": "ogl-author-rel1",
     "title": "Oracle Guided Learning Content Developer Certified Associate",
     "description": "Expertise in authoring OGL content, walkthroughs, and enterprise training flows.",
     "date": "2024-10-17",
-    "file_url": "/certificates/Oracle Guided Learning Content Developer Certified Foundations Associate Rel 1.pdf"
+    "file_url": "certificates/Oracle Guided Learning Content Developer Certified Foundations Associate Rel 1.pdf"
   },
-
   {
     "id": "oci-foundations",
     "title": "Oracle Cloud Infrastructure 2024 Certified Foundations Associate",
     "description": "Core OCI certification covering networking, compute, storage, IAM, and architecture.",
     "date": "2024-10-17",
-    "file_url": "/certificates/Oracle Cloud Infrastructure 2024 Certified Foundations Associate.pdf"
+    "file_url": "certificates/Oracle Cloud Infrastructure 2024 Certified Foundations Associate.pdf"
   }
 ]
