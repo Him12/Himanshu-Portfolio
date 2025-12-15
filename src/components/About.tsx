@@ -4,7 +4,7 @@ export function About() {
   const timeline = [
   {
     year: '2025',
-    title: 'Chief Technical Officer & Co-Founder – Thevisuplate',
+    title: 'CEO & CTO ,Founder – Thevisuplate',
     description:
       'Founded Thevisuplate (thevisuplate.online). Leading product architecture, full-stack development, deployment, and technical innovation for a modern visual-content platform.',
     icon: Rocket,
