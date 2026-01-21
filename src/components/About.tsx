@@ -4,79 +4,86 @@ export function About() {
   const timeline = [
   {
     year: '2025',
-    title: 'CEO & CTO ,Founder – Thevisuplate',
+    title: 'Founder, CEO & CTO – Milzull',
     description:
-      'Founded Thevisuplate (thevisuplate.online). Leading product architecture, full-stack development, deployment, and technical innovation for a modern visual-content platform.',
+      'Founded Milzull, a trust-first social and real-world interaction platform focused on verified users, intent-based services, post-meeting feedback, and spam-free communication. Leading full-stack development, system architecture, Supabase backend, real-time chat, verification flows, and product strategy.',
+    icon: Rocket,
+  },
+  {
+    year: '2025',
+    title: 'Technical Head and Co-Founder – Thevisuplate',
+    description:
+      'Founded Thevisuplate (thevisuplate.online). Leading product architecture, full-stack development, deployment, and technical innovation for a modern visual digital identity and content showcase platform.',
     icon: Rocket,
   },
   {
     year: '2025',
     title: 'Senior NetSuite Consultant / Senior Engineer – Nagarro',
     description:
-      'Leading NetSuite ERP implementations, customizations, integrations, and advanced scripting across global projects.',
+      'Leading NetSuite ERP implementations, customizations, integrations, RESTlets, workflows, and advanced SuiteScript development across global enterprise projects.',
     icon: Award,
   },
   {
     year: '2023',
     title: 'Engineer – Nagarro',
     description:
-      'Worked on NetSuite, Oracle ERP Cloud, MySQL, and backend technical solutions. Delivered scalable ERP customizations.',
+      'Worked on NetSuite and Oracle ERP Cloud projects including SuiteScript automation, integrations, reporting (OTBI), and backend technical solutions for large-scale clients.',
     icon: Code2,
   },
   {
     year: '2022',
     title: 'Associate Engineer – Nagarro',
     description:
-      'Automation Testing (Selenium, API Testing, Cucumber). Built tools, maintained scripts, designed test cases, and improved QA efficiency.',
+      'Worked on automation testing using Selenium, API testing, Cucumber, and ERP-based validation frameworks. Built reusable tools and improved QA efficiency.',
     icon: Code2,
   },
   {
     year: '2022',
-    title: 'Trainee – Nagarro',
+    title: 'Trainee Engineer – Nagarro',
     description:
-      'Completed training in QA, engineering fundamentals, automation testing, and ERP concepts.',
+      'Completed structured training in QA engineering, automation testing, ERP fundamentals, databases, and enterprise application workflows.',
     icon: Rocket,
   },
   {
     year: '2021',
     title: 'Assistant Team Lead – JindalX (Zomato Process)',
     description:
-      'Led a 30+ member team, handled operations, escalations, performance management, and rider experience improvement.',
+      'Led a 30+ member operations team, handled escalations, performance tracking, process improvements, and rider experience optimization.',
     icon: Award,
   },
   {
     year: '2020',
     title: 'Customer Service Associate – JindalX (Zomato)',
     description:
-      'Supported Zomato delivery partners, resolved issues, and improved delivery efficiency.',
+      'Provided operational support to Zomato delivery partners, resolved logistics issues, and contributed to improved delivery success rates.',
     icon: Code2,
   },
   {
     year: '2020',
     title: 'Web Development Intern – Bhumi NGO',
     description:
-      'Developed a complete WordPress website for an NGO and delivered end-to-end requirements.',
+      'Designed and developed a complete WordPress website for an NGO, handling UI, content structure, deployment, and stakeholder requirements.',
     icon: Rocket,
   },
   {
     year: '2020',
     title: 'Digital Marketing Intern – Guby Rogers',
     description:
-      'Handled brand awareness and social media promotions for digital campaigns.',
+      'Executed digital marketing campaigns, social media promotions, and brand awareness initiatives across online platforms.',
     icon: Rocket,
   },
   {
     year: '2019',
     title: 'Campus Ambassador – Awign',
     description:
-      'Promoted brand presence and conducted outreach activities across student communities.',
+      'Promoted brand presence, conducted student outreach, and coordinated campus-level engagement initiatives.',
     icon: Rocket,
   },
   {
     year: '2018',
-    title: 'Customer Service Representative – Teleone Consumers Products',
+    title: 'Customer Service Representative – Teleone Consumer Products',
     description:
-      'Handled international support calls (USA, Canada) for Ayurvedic product users.',
+      'Handled international customer support (USA & Canada) for Ayurvedic product users, ensuring service quality and issue resolution.',
     icon: Award,
   },
 ];
@@ -146,7 +153,7 @@ export function About() {
                 <div className="text-sm text-gray-600 dark:text-gray-400">Projects Completed</div>
               </div>
               <div className="text-center p-4 bg-gradient-to-br from-blue-50 to-cyan-50 dark:from-blue-950 dark:to-cyan-950 rounded-xl">
-                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">1</div>
+                <div className="text-3xl font-bold text-blue-600 dark:text-cyan-400 mb-1">2</div>
                 <div className="text-sm text-gray-600 dark:text-gray-400">Startups Founded</div>
               </div>
             </div>

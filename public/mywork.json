@@ -1,9 +1,28 @@
 [
   {
+    "id": 0,
+    "title": "Milzull",
+    "category": "startup",
+    "description": "Founder and Lead Developer of Milzull, a trust-first social and real-world interaction platform combining social posts, services, chat, and personalized connections.",
+    "tech_stack": [
+      "React",
+      "TypeScript",
+      "Supabase",
+      "PostgreSQL",
+      "TailwindCSS",
+      "Realtime APIs"
+    ],
+    "live_url": "https://milzull.online",
+    "github_url": "",
+    "image_url": "",
+    "featured": true,
+    "order_index": 0
+  },
+  {
     "id": 1,
     "title": "Thevisuplate",
     "category": "startup",
-    "description": "CEO & CTO- Founder of Thevisuplate, a modern digital identity and visual showcase platform.",
+    "description": "Technical Head and Co-Founder of Thevisuplate, a modern digital identity and visual showcase platform.",
     "tech_stack": ["Next.js", "React", "Node.js", "Supabase", "TailwindCSS"],
     "live_url": "https://thevisuplate.online",
     "github_url": "",

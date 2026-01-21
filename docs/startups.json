@@ -22,5 +22,31 @@
     "website_url": "https://thevisuplate.online",
     "screenshots": [],
     "order_index": 1
-  }
+  },
+  {
+  "id": 2,
+  "name": "Milzull",
+  "logo_url": "",
+  "vision": "To build a trusted social and real-world interaction platform where people can connect, share, offer services, and grow communities beyond traditional social media.",
+  "problem": "Existing social platforms are either entertainment-focused or transactional, lacking genuine local interaction and trust. Milzull solves this by combining social content, services, and real-world connections in one platform.",
+  "features": [
+    "Social posts with images, videos, and text",
+    "Service discovery and local offerings (Milzull Services)",
+    "Personalized connections (Homies & Personalize)",
+    "Profile-based identity with username login",
+    "Real-time chat and notifications",
+    "Mobile-first, fast, and scalable design"
+  ],
+  "achievements": [
+    "Launched Milzull MVP in 2025",
+    "Implemented username + email login",
+    "Built real-time posts, chat, and notifications",
+    "Successfully onboarded early users"
+  ],
+  "customer_impact": "Helps users connect socially, discover services, and build trust-based relationships in a single platform designed for real-world relevance.",
+  "website_url": "https://milzull.online",
+  "screenshots": [],
+  "order_index": 2
+}
+
 ]
